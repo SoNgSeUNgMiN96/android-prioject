@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText1"
+        android:hint="숫자1 입력"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText2"
+        android:hint="숫자2 입력"
+        ></EditText>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/btn1"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/btn0"
+            app:layout_constraintLeft_toRightOf="@+id/btn0"
+            app:layout_constraintRight_toLeftOf="@+id/btn2"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/btn0"
+            app:layout_constraintLeft_toRightOf="@+id/btn1"
+            app:layout_constraintRight_toLeftOf="@+id/btn3"
+            android:text="2" />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/btn0"
+            app:layout_constraintLeft_toRightOf="@+id/btn2"
+            app:layout_constraintRight_toLeftOf="@+id/btn4"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/btn0"
+            app:layout_constraintLeft_toRightOf="@+id/btn3"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="4" />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/btn0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/btn6"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/btn0"
+            app:layout_constraintLeft_toRightOf="@+id/btn5"
+            app:layout_constraintRight_toLeftOf="@+id/btn7"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/btn0"
+            app:layout_constraintLeft_toRightOf="@id/btn6"
+            app:layout_constraintRight_toLeftOf="@+id/btn8"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/btn0"
+            app:layout_constraintLeft_toRightOf="@id/btn7"
+            app:layout_constraintRight_toLeftOf="@+id/btn9"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/btn0"
+            app:layout_constraintLeft_toRightOf="@id/btn8"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="9" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="더하기"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btnadd"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="빼기"
+        android:id="@+id/btnsub"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="곱하기"
+        android:id="@+id/btnmul"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="나누기"
+        android:id="@+id/btndiv"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="계산 결과:"
+        android:textColor="#F00"
+        android:textSize="20dp"
+        android:id="@+id/textView1"/>
+
+
+</LinearLayout>
