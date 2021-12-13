@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:columnCount="4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="top|center"
+        android:rowCount="5"
+        >
+
+        <ImageButton
+            android:id="@+id/movie1"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov01" />
+
+        <ImageButton
+            android:id="@+id/movie2"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov02" />
+
+        <ImageButton
+            android:id="@+id/movie3"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov03" />
+
+        <ImageButton
+            android:id="@+id/movie4"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov04" />
+
+        <ImageButton
+            android:id="@+id/movie5"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov05" />
+
+        <ImageButton
+            android:id="@+id/movie6"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov06" />
+
+        <ImageButton
+            android:id="@+id/movie7"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov07" />
+
+        <ImageButton
+            android:id="@+id/movie8"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov08" />
+
+        <ImageButton
+            android:id="@+id/movie9"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov09" />
+
+        <ImageButton
+            android:id="@+id/movie10"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov10" />
+
+        <ImageButton
+            android:id="@+id/movie11"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov01" />
+
+        <ImageButton
+            android:id="@+id/movie12"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov02" />
+
+        <ImageButton
+            android:id="@+id/movie13"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov03" />
+
+        <ImageButton
+            android:id="@+id/movie14"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov04" />
+
+        <ImageButton
+            android:id="@+id/movie15"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov05" />
+
+        <ImageButton
+            android:id="@+id/movie16"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov06" />
+
+        <ImageButton
+            android:id="@+id/movie17"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov07" />
+
+        <ImageButton
+            android:id="@+id/movie18"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov08" />
+
+        <ImageButton
+            android:id="@+id/movie19"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov09" />
+
+        <ImageButton
+            android:id="@+id/movie20"
+            android:layout_width="100dp"
+            android:layout_height="144dp"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mov10" />
+
+
+    </GridLayout>
+
+</ScrollView>
+
+
+
+
