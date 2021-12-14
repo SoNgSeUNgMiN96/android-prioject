@@ -47,7 +47,7 @@
         android:paddingLeft="50dp"
         android:layout_marginBottom="10dp"
         android:paddingRight="50dp"
-        android:background="#00FFFF"
+        android:backgroundTint="#00FFFF"
         android:id="@+id/btnfrag1"
         android:text="FRAGMENT A"/>
 
@@ -58,7 +58,7 @@
         android:paddingLeft="50dp"
         android:layout_marginBottom="10dp"
         android:paddingRight="50dp"
-        android:background="#FF0000"
+        android:backgroundTint="#FF0000"
         android:id="@+id/btnfrag2"
         android:text="FRAGMENT B"/>
     <Button
@@ -67,7 +67,7 @@
         android:layout_gravity="center"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
-        android:background="#00D80C"
+        android:backgroundTint="#00D80C"
         android:id="@+id/btnfrag3"
         android:text="FRAGMENT C"/>
 

@@ -12,15 +12,12 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 
-public class FragmentA extends Fragment {
-
+public class FragmentC extends Fragment {
 
     static EditText editText;
 
-
-
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_a,container,false);
+        View v = inflater.inflate(R.layout.fragment_c,container,false);
         editText = (EditText) v.findViewById(R.id.edit_text);
         Bundle bundle = getArguments();
         editText.setText(bundle.getString("input"));
@@ -32,8 +29,11 @@ public class FragmentA extends Fragment {
         super.onViewCreated(view, savedInstanceState);
     }
 
+
     @Override
     public void onDetach() {
         super.onDetach();
     }
+
+
 }

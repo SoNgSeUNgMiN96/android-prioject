@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:layout_gravity="center_horizontal"
-    android:background="#FF0000">
+    android:background="#00D80C">
 
 
     <LinearLayout
@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:textSize="25dp"
-            android:text="FragmentB:"
+            android:text="FragmentC:"
             android:background="@null"/>
 
         <EditText

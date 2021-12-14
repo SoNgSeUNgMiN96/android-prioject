@@ -21,7 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-
-        assertEquals("com.cookandroid.fragcomm2", appContext.getPackageName());
+        assertEquals("com.cookandroid.fragcomm3", appContext.getPackageName());
     }
 }
